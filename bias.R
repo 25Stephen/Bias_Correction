@@ -1,5 +1,4 @@
 library(hyfo)
-
 obs_file <-'/media/kenz/1B8D1A637BBA134B/bcsd-final/data2/Era_5_obs.nc'
 obs_var <- getNcdfVar(obs_file)
 obs_data <- loadNcdf(obs_file, obs_var)
